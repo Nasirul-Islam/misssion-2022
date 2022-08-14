@@ -1,3 +1,4 @@
+/* common css start */
 * {
     margin: 0;
     padding: 0;
@@ -6,5 +7,229 @@
 
 .container {
     width: 80%;
-    margin: 50px auto;
+    margin: 60px auto;
 }
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    line-height: 70px;
+    color: black;
+    margin: 25px 0;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    color: black;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: black;
+    margin: 10px 0px;
+}
+
+.heading-center {
+    text-align: center;
+}
+
+.text-color {
+    color: rgb(225, 183, 16);
+}
+
+button {
+    background-color: #f26f6f;
+    color: white;
+    padding: 11px 25px;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+
+/* common css end */
+
+/* Focused part start */
+.Focused {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.FocusedLeft .hading-border {
+    border-left: 5px solid #f26f6f;
+    padding-left: 5px;
+}
+
+.FocusedRight img {
+    width: 350px;
+    height: 450px;
+}
+
+/* Focused part end */
+
+/* mission part start */
+.cards {
+    margin: 40px 0px;
+    display: flex;
+}
+
+.card {
+    margin: 0px 10px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.card1 {
+    background-color: rgb(210, 237, 250);
+}
+
+.card2 {
+    background-color: rgb(250, 210, 241);
+}
+
+.card3 {
+    background-color: lightgoldenrodyellow;
+}
+
+.image img {
+    width: 50%;
+}
+
+/* mission part end */
+
+/* Develop part start */
+.Develop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.Develop .dev-shape {
+    width: 20%;
+    position: absolute;
+    top: 70px;
+    left: -70px;
+    z-index: 0;
+}
+
+.Develop img {
+    width: 40%;
+    z-index: 1;
+}
+
+.develop-text {
+    padding-left: 65px;
+}
+
+/* Develop part end */
+
+/* Community part start */
+.Community {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.Community-text {
+    padding-right: 65px;
+}
+
+.Community-text p {
+    text-align: justify;
+}
+
+.Community .Community-shape {
+    width: 20%;
+    position: absolute;
+    bottom: -45px;
+    right: -70px;
+    z-index: -1;
+}
+
+.Community img {
+    width: 40%;
+}
+
+/* Community part end */
+
+/* Application  part start */
+.Application {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.Application-image {
+    text-align: center;
+    position: relative;
+}
+
+.Application-image .shape1 {
+    width: 28%;
+    position: absolute;
+    top: -26px;
+    left: 68px;
+    z-index: -1;
+}
+
+.Application-image .shape2 {
+    width: 20%;
+    position: absolute;
+    bottom: 135px;
+    right: 76px;
+    z-index: -1;
+}
+
+.Application-image .shape3 {
+    width: 20%;
+    position: absolute;
+    bottom: 0px;
+    left: 78px;
+    z-index: -1;
+}
+
+.Application-image .app {
+    width: 55%;
+    z-index: 1;
+}
+
+/* Application  part end */
+
+/* footer start */
+footer {
+    background-color: black;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+footer h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.footer-tx-color {
+    color: tomato;
+}
+
+footer p {
+    color: #cfc9c9;
+    font-size: 15px;
+}
+
+/* footer end */
